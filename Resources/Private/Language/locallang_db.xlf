@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2017-10-22T19:03:53Z" product-name="iwda_word2digi">
+		<header/>
+		<body>
+			<trans-unit id="tx_iwda_word2digi_domain_model_bspplugin">
+				<source>Beispiel Plugin</source>
+			</trans-unit>
+			<trans-unit id="tx_iwda_word2digi_domain_model_bspplugin.description">
+				<source>Automatischer Upload von docx zu Typo3</source>
+			</trans-unit>
+			<trans-unit id="tx_iwdaword2digi_domain_model_example">
+				<source>Example</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

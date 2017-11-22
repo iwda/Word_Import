@@ -1,0 +1,89 @@
+{
+    "modules": [
+        {
+            "config": {
+                "position": [
+                    380,
+                    212
+                ]
+            },
+            "name": "New Model Object",
+            "value": {
+                "actionGroup": {
+                    "_default0_list": true,
+                    "_default1_show": false,
+                    "_default2_new_create": false,
+                    "_default3_edit_update": false,
+                    "_default4_delete": false,
+                    "customActions": []
+                },
+                "name": "Example",
+                "objectsettings": {
+                    "addDeletedField": true,
+                    "addHiddenField": true,
+                    "addStarttimeEndtimeFields": true,
+                    "aggregateRoot": false,
+                    "categorizable": false,
+                    "description": "",
+                    "mapToTable": "",
+                    "parentClass": "",
+                    "sorting": false,
+                    "type": "Entity",
+                    "uid": "874227814759"
+                },
+                "propertyGroup": {
+                    "properties": []
+                },
+                "relationGroup": {
+                    "relations": []
+                }
+            }
+        }
+    ],
+    "properties": {
+        "backendModules": [],
+        "description": "Automatischer Upload von docx zu Typo3",
+        "emConf": {
+            "category": "module",
+            "custom_category": "",
+            "dependsOn": "typo3 => 7.6.0-7.6.99\nphp => 5.3.0\nrestler => 1.5.0-0.0.0",
+            "disableLocalization": false,
+            "disableVersioning": false,
+            "skipGenerateDocumentationTemplate": false,
+            "sourceLanguage": "en",
+            "state": "alpha",
+            "targetVersion": "7.6.0-7.6.99",
+            "version": "1.0.0"
+        },
+        "extensionKey": "iwda_word2digi",
+        "name": "Word2Digi",
+        "originalExtensionKey": "",
+        "originalVendorName": "",
+        "persons": [
+            {
+                "company": "",
+                "email": "",
+                "name": "David Iwertowski",
+                "role": "Developer"
+            }
+        ],
+        "plugins": [
+            {
+                "actions": {
+                    "controllerActionCombinations": "",
+                    "noncacheableActions": "",
+                    "switchableActions": ""
+                },
+                "key": "bspplugin",
+                "name": "Beispiel Plugin"
+            }
+        ],
+        "vendorName": "Iwda"
+    },
+    "wires": [],
+    "log": {
+        "last_modified": "2017-10-22 07:03",
+        "extension_builder_version": "7.6.18",
+        "be_user": " (1)"
+    }
+}
